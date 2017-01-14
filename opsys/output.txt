@@ -1,0 +1,394 @@
+
+Processler
+gid->3 control ediliyor
+control search->gid 3
+control bitti->gid->3 statu->0
+yokmus ekleyicez grouba add->3
+
+Existence Control
+Beklenen-gid->3,uid->17
+
+GU tablosunda yok guid->3,uid->17
+GU tablosuna ekle gid->3,uid->17
+G-U add->gid=3,uid=17
+
+GU struct
+Gid->3
+UID->17
+GU tablosunada eklendi gid->3,uid->17
+
+
+
+
+gid->3 control ediliyor
+control search->gid 3
+**groub ->3 varmýþ ,user-> kontrol 17
+
+Existence Control
+Beklenen-gid->3,uid->17
+
+gelen->guid3,uid17
+**varmýþ->3,17
+
+GU struct
+Gid->3
+UID->17
+control bitti->gid->3 statu->1
+
+
+
+
+gid->2 control ediliyor
+control search->gid 2
+control bitti->gid->2 statu->0
+yokmus ekleyicez grouba add->2
+
+Existence Control
+Beklenen-gid->2,uid->11
+
+gelen->guid3,uid17
+GU tablosunda yok guid->2,uid->11
+GU tablosuna ekle gid->2,uid->11
+G-U add->gid=2,uid=11
+
+GU struct
+Gid->2
+UID->11
+Gid->3
+UID->17
+GU tablosunada eklendi gid->2,uid->11
+
+
+
+
+gid->2 control ediliyor
+control search->gid 2
+**groub ->2 varmýþ ,user-> kontrol 11
+
+Existence Control
+Beklenen-gid->2,uid->11
+
+gelen->guid2,uid11
+**varmýþ->2,11
+
+GU struct
+Gid->2
+UID->11
+Gid->3
+UID->17
+control bitti->gid->2 statu->1
+
+
+
+
+gid->7 control ediliyor
+control search->gid 7
+control bitti->gid->7 statu->0
+yokmus ekleyicez grouba add->7
+
+Existence Control
+Beklenen-gid->7,uid->13
+
+gelen->guid2,uid11
+gelen->guid3,uid17
+GU tablosunda yok guid->7,uid->13
+GU tablosuna ekle gid->7,uid->13
+G-U add->gid=7,uid=13
+
+GU struct
+Gid->7
+UID->13
+Gid->2
+UID->11
+Gid->3
+UID->17
+GU tablosunada eklendi gid->7,uid->13
+
+
+
+
+gid->2 control ediliyor
+control search->gid 2
+**groub ->2 varmýþ ,user-> kontrol 12
+
+Existence Control
+Beklenen-gid->2,uid->12
+
+gelen->guid7,uid13
+gelen->guid2,uid11
+gelen->guid3,uid17
+GU tablosunda yok guid->2,uid->12
+GU tablosuna ekle gid->2,uid->12
+G-U add->gid=2,uid=12
+
+GU struct
+Gid->2
+UID->12
+Gid->7
+UID->13
+Gid->2
+UID->11
+Gid->3
+UID->17
+control bitti->gid->2 statu->1
+
+
+
+
+gid->1 control ediliyor
+control search->gid 1
+control bitti->gid->1 statu->0
+yokmus ekleyicez grouba add->1
+
+Existence Control
+Beklenen-gid->1,uid->4
+
+gelen->guid2,uid12
+gelen->guid7,uid13
+gelen->guid2,uid11
+gelen->guid3,uid17
+GU tablosunda yok guid->1,uid->4
+GU tablosuna ekle gid->1,uid->4
+G-U add->gid=1,uid=4
+
+GU struct
+Gid->1
+UID->4
+Gid->2
+UID->12
+Gid->7
+UID->13
+Gid->2
+UID->11
+Gid->3
+UID->17
+GU tablosunada eklendi gid->1,uid->4
+
+
+
+
+gid->1 control ediliyor
+control search->gid 1
+**groub ->1 varmýþ ,user-> kontrol 4
+
+Existence Control
+Beklenen-gid->1,uid->4
+
+gelen->guid1,uid4
+**varmýþ->1,4
+
+GU struct
+Gid->1
+UID->4
+Gid->2
+UID->12
+Gid->7
+UID->13
+Gid->2
+UID->11
+Gid->3
+UID->17
+control bitti->gid->1 statu->1
+
+
+
+
+gid->1 control ediliyor
+control search->gid 1
+**groub ->1 varmýþ ,user-> kontrol 2
+
+Existence Control
+Beklenen-gid->1,uid->2
+
+gelen->guid1,uid4
+gelen->guid2,uid12
+gelen->guid7,uid13
+gelen->guid2,uid11
+gelen->guid3,uid17
+GU tablosunda yok guid->1,uid->2
+GU tablosuna ekle gid->1,uid->2
+G-U add->gid=1,uid=2
+
+GU struct
+Gid->1
+UID->2
+Gid->1
+UID->4
+Gid->2
+UID->12
+Gid->7
+UID->13
+Gid->2
+UID->11
+Gid->3
+UID->17
+control bitti->gid->1 statu->1
+
+
+
+
+gid->1 control ediliyor
+control search->gid 1
+**groub ->1 varmýþ ,user-> kontrol 3
+
+Existence Control
+Beklenen-gid->1,uid->3
+
+gelen->guid1,uid2
+gelen->guid1,uid4
+gelen->guid2,uid12
+gelen->guid7,uid13
+gelen->guid2,uid11
+gelen->guid3,uid17
+GU tablosunda yok guid->1,uid->3
+GU tablosuna ekle gid->1,uid->3
+G-U add->gid=1,uid=3
+
+GU struct
+Gid->1
+UID->3
+Gid->1
+UID->2
+Gid->1
+UID->4
+Gid->2
+UID->12
+Gid->7
+UID->13
+Gid->2
+UID->11
+Gid->3
+UID->17
+control bitti->gid->1 statu->1
+
+
+
+
+gid->3 control ediliyor
+control search->gid 3
+**groub ->3 varmýþ ,user-> kontrol 14
+
+Existence Control
+Beklenen-gid->3,uid->14
+
+gelen->guid1,uid3
+gelen->guid1,uid2
+gelen->guid1,uid4
+gelen->guid2,uid12
+gelen->guid7,uid13
+gelen->guid2,uid11
+gelen->guid3,uid17
+GU tablosunda yok guid->3,uid->14
+GU tablosuna ekle gid->3,uid->14
+G-U add->gid=3,uid=14
+
+GU struct
+Gid->3
+UID->14
+Gid->1
+UID->3
+Gid->1
+UID->2
+Gid->1
+UID->4
+Gid->2
+UID->12
+Gid->7
+UID->13
+Gid->2
+UID->11
+Gid->3
+UID->17
+control bitti->gid->3 statu->1
+
+
+
+
+gid->1 control ediliyor
+control search->gid 1
+**groub ->1 varmýþ ,user-> kontrol 3
+
+Existence Control
+Beklenen-gid->1,uid->3
+
+gelen->guid3,uid14
+gelen->guid1,uid3
+**varmýþ->1,3
+
+GU struct
+Gid->3
+UID->14
+Gid->1
+UID->3
+Gid->1
+UID->2
+Gid->1
+UID->4
+Gid->2
+UID->12
+Gid->7
+UID->13
+Gid->2
+UID->11
+Gid->3
+UID->17
+control bitti->gid->1 statu->1
+
+
+
+
+
+Group struct
+Gid->1
+sayac->3
+Gid->7
+sayac->1
+Gid->2
+sayac->2
+Gid->3
+sayac->2
+
+GU struct
+Gid->3
+UID->14
+Gid->1
+UID->3
+Gid->1
+UID->2
+Gid->1
+UID->4
+Gid->2
+UID->12
+Gid->7
+UID->13
+Gid->2
+UID->11
+Gid->3
+UID->17
+----------------
+Percentages calculation
+--------------------
+
+pid->11,uid->17,gid->3,percentage->6.250000
+User struct
+pid->10,uid->17,gid->3,percentage->6.250000
+User struct
+pid->9,uid->11,gid->2,percentage->6.250000
+User struct
+pid->8,uid->11,gid->2,percentage->6.250000
+User struct
+pid->7,uid->13,gid->7,percentage->25.000000
+User struct
+pid->6,uid->12,gid->2,percentage->12.500000
+User struct
+pid->5,uid->4,gid->1,percentage->4.166667
+User struct
+pid->4,uid->4,gid->1,percentage->4.166667
+User struct
+pid->3,uid->2,gid->1,percentage->8.333333
+User struct
+pid->2,uid->3,gid->1,percentage->4.166667
+User struct
+pid->11,uid->14,gid->3,percentage->12.500000
+User struct
+pid->1,uid->3,gid->1,percentage->4.166667
